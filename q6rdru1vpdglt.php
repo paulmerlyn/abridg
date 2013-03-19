@@ -1,0 +1,1 @@
+<?php header('Location: https://viewer.zoho.com/api/urlview.do?url=http://www.abridg.com/media/Abridg_Fixes_243.doc&embed=true'); ?>

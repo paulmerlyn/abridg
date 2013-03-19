@@ -1,0 +1,9 @@
+.yui-panel-container {z-index:10000;position:absolute; background-color:transparent;  visibility:hidden; overflow:visible; width:auto;}
+.yui-panel-container.shadow {padding:0px; background-color:transparent;}
+.yui-panel-container.shadow .underlay {visibility:inherit; position:absolute;	background-color:#000; top:13px;left:3px; z-index:0;	width:100%;	height:100%; -moz-opacity: 0.12; opacity:.12; filter:alpha(opacity=12); zoom:1;}
+.yui-panel {visibility:hidden; border-collapse:separate; position:relative; left:0px; top: 10px; font-family: Geneva, Arial, Helvetica, sans-serif; background-color:#FFF; border:1px solid #4D8963;	z-index:1; overflow:hidden;}
+.yui-panel .hd {background-color:#4D8963; color:#FFF; font-size:11px; line-height:100%; font-weight:bold; overflow:hidden; padding:4px;}
+.yui-panel .bd {overflow:hidden; padding: 0px; font-size: 11px; }
+.yui-panel .bd p {margin:0 0 1em;}
+.yui-panel .container-close {position:absolute; top:5px; right:4px; z-index:6; height:12px; width:12px; margin:0px; padding:0px; background:url(close.gif) no-repeat; cursor:pointer; visibility:inherit;}
+.yui-panel .ft {padding:4px; overflow:hidden;}

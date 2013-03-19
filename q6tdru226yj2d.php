@@ -1,0 +1,1 @@
+<?php header('Location: http://docs.google.com/viewer?url=http://www.abridg.com/media/Sample_PowerPoint_245.ppt&embedded=true'); ?>

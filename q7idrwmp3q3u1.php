@@ -1,0 +1,1 @@
+<?php header('Location: https://viewer.zoho.com/api/urlview.do?url=http://www.abridg.com/media/The_Truman_Show_Presentation_270.ppt&embed=false'); ?>

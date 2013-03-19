@@ -1,0 +1,1 @@
+<?php header('Location: https://viewer.zoho.com/api/urlview.do?url=http://www.abridg.com/media/Seth_MacFarlane_Bio_248.doc&embed=false'); ?>

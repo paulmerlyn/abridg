@@ -1,0 +1,1 @@
+<?php header('Location: https://viewer.zoho.com/api/urlview.do?url=http://www.abridg.com/media/Gary_Built_to_Last_Slides_021003_246.ppt&embed=false'); ?>

@@ -1,0 +1,13 @@
+/*
+CSS from two different sources to create a div-based (cf. browser window-based) popup that is also movable: 
+1. Div-based popup code courtesy: http://www.astral-consultancy.co.uk/cgi-bin/hunbug/doco.cgi?11540
+2. Movable div-based code courtesy: http://waseemblog.com/42/movable-div-using-javascript.html (note: "testdiv" in the third-party code is renamed "popup1" to conform to the div id given in (1.) above.
+    The div encapsulates a selector panel comprising two tabs, which is itself constructed from third-party code courtesy Adobe Spry: http://labs.adobe.com/technologies/spry/articles/tabbed_panel and http://labs.adobe.com/technologies/spry/samples/tabbedpanels/tabbed_panel_sample.htm (although the CSS and JS for the 2-tab selector panel is stored separately in files SpryTabbedPanels.css and SpryTabbedPanels.js respectively.
+	Note that movablepopupdiv.css is accompanied by movablepopup.js
+*/
+
+/*  First we have the CSS for the div-based popup: */
+.popup { border: 0px; font-family: Geneva; font-size: 12px; display: none; position: fixed; top: 110px; right: 20px; z-index: 2; float: right; left: 1600px; }
+.popuptitle { background: blue; color: white; font-weight: bold; height: 15px; padding: 5px; /* I decided not to include a popuptitle line in the HTML of index.php */ }
+.popupbody { background: #FFFFFF; padding: 0px; text-align: left; margin: 0px; }
+/*#popup1 { top: 100px; right: 20px; }*/

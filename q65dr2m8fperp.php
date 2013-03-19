@@ -1,0 +1,1 @@
+<?php header('Location: http://docs.google.com/viewer?url=http://www.abridg.com/media/Abridg_Fonts_221.doc&embedded=true'); ?>
