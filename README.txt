@@ -1,0 +1,1 @@
+Abridg is a media sharing and social networking site built using PHP and MySQL with a Bootstrap-based HTML5 front-end.
