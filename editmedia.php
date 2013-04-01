@@ -22,7 +22,7 @@ set_time_limit(0); // Recommended also (see PHP Manual http://www.php.net/manual
 $id = md5(microtime() . rand());
 
 // Connect to DB
-$db = mysql_connect('localhost', 'paulme6_merlyn', 'fePhaCj64mkik')
+$db = mysql_connect('localhost', 'paulme6_merlyn', '')
 or die('Could not connect: ' . mysql_error());
 mysql_select_db('paulme6_abridg') or die('Could not connect to the abridg database: ' . mysql_error());
 
