@@ -5,7 +5,7 @@ session_start();
 if ($_SESSION['Authenticated'] != 'true') header("Location: /index.php");
 
 // Connect to mysql
-$db = mysql_connect('localhost', 'paulme6_merlyn', 'fePhaCj64mkik')
+$db = mysql_connect('localhost', 'paulme6_merlyn', '')
 or die('Could not connect: ' . mysql_error());
 mysql_select_db('paulme6_abridg') or die('Could not select database: ' . mysql_error());
 ?>
