@@ -18,7 +18,7 @@ if (!empty($Prolif_n)) $_SESSION['Prolif_n'] = $Prolif_n;
 if (!empty($Interval_i)) $_SESSION['Interval_i'] = $Interval_i;
 if (!empty($scale)) $_SESSION['scale'] = $scale;
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
